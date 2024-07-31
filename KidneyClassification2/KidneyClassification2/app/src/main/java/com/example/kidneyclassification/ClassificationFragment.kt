@@ -101,7 +101,7 @@ class ClassificationFragment : Fragment() {
             val body = """{"image":"${encodedImage.replace("\n", "")}"}""".toRequestBody(mediaType)
             Log.d("BODYREQUEST", body.toString())
             val request = Request.Builder()
-                .url("http://192.168.1.8:5000/api/classify") // Replace with your API endpoint
+                .url("http://10.92.53.39:5000/api/classify") // Replace with your API endpoint
                 .post(body)
                 .build()
 
