@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple"
+                app:title="Informasi Penyakit Ginjal"
+                app:titleCentered="true"
+                app:titleTextColor="@color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_ginjall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolbar"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="18dp"
+                android:text="Ginjal merupakan sepasang organ seukuran kepalan tangan yang terletak di rongga perut, tepatnya di bawah tulang rusuk bagian belakang. Bentuknya menyerupai biji kacang merah dan memiliki fungsi vital dalam tubuh yakni mengeluarkan atau memisahkan produk buangan metabolism dari darah (KBBI, 2016)"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/img_ginjal"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/txt_ginjall"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="106dp"
+                android:src="@drawable/image_1" />
+
+            <TextView
+                android:id="@+id/txt_gambar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_ginjal"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="90dp"
+                android:text="Anatomi Ginjal (D. A. Schulsinger, 2015)"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_ginjal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolbar"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="18dp"
+                android:text="Ginjal merupakan sepasang organ seukuran kepalan tangan yang terletak di rongga perut, tepatnya di bawah tulang rusuk bagian belakang. Bentuknya menyerupai biji kacang merah dan memiliki fungsi vital dalam tubuh yakni mengeluarkan atau memisahkan produk buangan metabolism dari darah (KBBI, 2016)"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_bridging"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_gambar1"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="2dp"
+                android:text="Berikut ini merupakan penjelasan ciri-ciri hasil CT scan aksial dan koronal pada beberapa penyakit ginjal yang menjadi objek penelitian: "
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_kista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_bridging"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="4dp"
+                android:text="1. Kista Ginjal"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_kistaginjal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_kista"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="106dp"
+                android:src="@drawable/image_2" />
+
+            <TextView
+                android:id="@+id/txt_kista2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_kistaginjal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="15dp"
+                android:text="Kista merupakan pembengkakan pada jaringan tubuh yang di dalamnya berongga dan berisi cairan kental menyerupai bubur (KBBI, 2016). Kista ginjal sederhana (ditandai panah) memiliki ciri-ciri: tepi jelas, bentuk bulat/oval, dinding tipis, dan berwarna hitam karena mengandung cairan. Sedangkan kista Renal Cell Carsinoma (RCC) (ditandai panah kosong) memiliki ciri-ciri: dinding tebal, bentuk tidak rata, dan densitas CT scan lebih tinggi (E. Levine dan J.J Grantham, 1990)."
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_batu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_kista2"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="4dp"
+                android:text="2. Batu Ginjal"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_batuginjal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_batu"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="29dp"
+                android:src="@drawable/image_3" />
+
+            <ImageView
+                android:id="@+id/img_batuginjal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_batu"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="80dp"
+                android:layout_toEndOf="@id/img_batuginjal"
+                android:src="@drawable/image_4" />
+
+            <TextView
+                android:id="@+id/txt_batu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_batuginjal2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="15dp"
+                android:text="Batu Ginjal adalah batu yang terjadi karena pengendapan senyawa garam oksalat, urat, fosfat dalam pelvis renalis/renal pelvis (piala ginjal)
+(KBBI, 2016). Pada gambar diatas menunjukkan hasil CT Scan batu ginjal kanan terdapat batu asam urat berukuran 2 cm (panah kuning) (D. A. Schulsinger, 2015)."
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_tumor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_batu2"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="4dp"
+                android:text="3. Tumor Ginjal"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_tumorginjal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_tumor"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/image_6" />
+
+            <ImageView
+                android:id="@+id/img_tumorginjal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_tumor"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="99dp"
+                android:layout_toEndOf="@id/img_batuginjal"
+                android:src="@drawable/image_7" />
+
+            <TextView
+                android:id="@+id/txt_tumor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_tumorginjal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="15dp"
+                android:text="Batu Ginjal adalah batu yang terjadi karena pengendapan senyawa garam oksalat, urat, fosfat dalam pelvis renalis/renal pelvis (piala ginjal)
+(KBBI, 2016). Pada gambar diatas menunjukkan hasil CT Scan batu ginjal kanan terdapat batu asam urat berukuran 2 cm (panah kuning) (D. A. Schulsinger, 2015)."
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+</ScrollView>
